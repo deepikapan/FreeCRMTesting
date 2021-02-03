@@ -36,6 +36,7 @@ public class BaseClass {
 	}
 
 	public void tearDown() {
+		//quitting driver
 		driver.quit();
 		
 	}
