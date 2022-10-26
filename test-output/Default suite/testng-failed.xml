@@ -5,15 +5,18 @@
     <classes>
       <class name="testPackage.TestClass">
         <methods>
-          <include name="verifySignInTabOpenedOnHomePage"/>
+          <include name="tearDown"/>
+          <include name="enterTextInEmailAndPasswordTextBoxHomePage"/>
           <include name="initializeDriver"/>
           <include name="verifyMyAccountPageIsOpened"/>
+          <include name="verifySignInTabOpenedOnHomePage"/>
           <include name="clickOnSignInLink"/>
-          <include name="openApplication"/>
+          <include name="selectSortDropDownMyAccountPage"/>
           <include name="verifyHomePageOfApplication"/>
-          <include name="moveAndClickOnWomenTabOnMyAccountPage"/>
-          <include name="enterTextInEmailAndPasswordTextBoxHomePage"/>
+          <include name="openApplication"/>
+          <include name="enterTextInSearchBoxMyAcconutPage"/>
           <include name="selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount"/>
+          <include name="moveAndClickOnWomenTabOnMyAccountPage"/>
         </methods>
       </class> <!-- testPackage.TestClass -->
     </classes>

@@ -34,6 +34,7 @@ public class TestClass {
 	public void tearDown() {
 		ObjBaseClass.tearDown(); 
 	}
+	//Open browser
 	@Test(priority = 0)
 	@Parameters("appURL")
 	public void openApplication(String appURL) {

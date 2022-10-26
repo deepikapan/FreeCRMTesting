@@ -39,17 +39,16 @@ public class HomePageClass {
 
 	public void clickSignInLinkHomePage() {
 		element1 = objFindElementClass.findElementUsingClass(signInLinkHomePage);
+		String text= element1.getAttribute(signInFormHomePage); 
+		System.out.println("Text using getAttribute method is : "+text);
+		String text1 = element1.getText(); 
+		System.out.println("Text using getText method is : "+text1);
 		objFindElementClass.clickOnELement(element1);
 	}
 	
 	public boolean verifySignInTabIsOpenedOnMainPage() {
 		element1 = objFindElementClass.findElementUsingID(signInFormHomePage); 
 		status = objFindElementClass.isElementDisplayed(element1); 
-		if (status) {
-			Reporter.log("Element is displayed on screen!");
-		} else {
-			Reporter.log("Element is not displayed on screen!");
-		}
 		return status; 
 	}
 	public void enterTextInEmailAndPasswordTextBoxHomePage(String email, String passWord) {

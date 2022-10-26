@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,125 +93,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">20 methods, 6 failed,   14 passed</span>
+                    <span class="method-stats">2 methods,  2 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content skipped suite-Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="enterTextInEmailAndPasswordTextBoxHomePage(panwarpalak222@gmail.com, test@123)">enterTextInEmailAndPasswordTextBoxHomePage(panwarpalak222@gmail.com, test@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="enterTextInSearchBoxMyAcconutPage">enterTextInSearchBoxMyAcconutPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="moveAndClickOnWomenTabOnMyAccountPage">moveAndClickOnWomenTabOnMyAccountPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount">selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="selectSortDropDownMyAccountPage">selectSortDropDownMyAccountPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="verifyMyAccountPageIsOpened">verifyMyAccountPageIsOpened</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="clickOnSignInLink">clickOnSignInLink</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="clickOnSignInLink">clickOnSignInLink</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="enterTextInEmailAndPasswordTextBoxHomePage(panwarpalak222@gmail.com, test@123)">enterTextInEmailAndPasswordTextBoxHomePage(panwarpalak222@gmail.com, test@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="enterTextInSearchBoxMyAcconutPage">enterTextInSearchBoxMyAcconutPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="moveAndClickOnWomenTabOnMyAccountPage">moveAndClickOnWomenTabOnMyAccountPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="openApplication(http://automationpractice.com/index.php)">openApplication(http://automationpractice.com/index.php)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="openApplication(http://automationpractice.com/index.php)">openApplication(http://automationpractice.com/index.php)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount">selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="selectSortDropDownMyAccountPage">selectSortDropDownMyAccountPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="verifyHomePageOfApplication">verifyHomePageOfApplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="verifyHomePageOfApplication">verifyHomePageOfApplication</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="verifyMyAccountPageIsOpened">verifyMyAccountPageIsOpened</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="verifySignInTabOpenedOnHomePage">verifySignInTabOpenedOnHomePage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testPackage.TestClass" hash-for-method="verifySignInTabOpenedOnHomePage">verifySignInTabOpenedOnHomePage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -223,290 +124,49 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">testPackage.TestClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="enterTextInEmailAndPasswordTextBoxHomePage(panwarpalak222@gmail.com, test@123)">
-                  </a> <!-- enterTextInEmailAndPasswordTextBoxHomePage(panwarpalak222@gmail.com, test@123) -->
-                  <span class="method-name">enterTextInEmailAndPasswordTextBoxHomePage</span>
-                  <span class="parameters">(panwarpalak222@gmail.com, test@123)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-CD4PKTO&apos;, ip: &apos;10.0.0.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 36652, moz:profile: C:\Users\Anurag\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9cfc87e6-3570-4c7f-9177-b53099426ca5
-*** Element info: {Using=id, value=SubmitLogin}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at basePackage.FindElementClass.findElementUsingID(FindElementClass.java:37)
-	at basePackage.HomePageClass.clickSignInButtonSignInFormHomePage(HomePageClass.java:62)
-	at testPackage.TestClass.enterTextInEmailAndPasswordTextBoxHomePage(TestClass.java:60)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="enterTextInSearchBoxMyAcconutPage">
-                  </a> <!-- enterTextInSearchBoxMyAcconutPage -->
-                  <span class="method-name">enterTextInSearchBoxMyAcconutPage</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-CD4PKTO&apos;, ip: &apos;10.0.0.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 36652, moz:profile: C:\Users\Anurag\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9cfc87e6-3570-4c7f-9177-b53099426ca5
-*** Element info: {Using=id, value=search_query_top}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at basePackage.FindElementClass.findElementUsingID(FindElementClass.java:37)
-	at basePackage.MyAccountPage.enterTextInSearchBoxMyAcconutPage(MyAccountPage.java:58)
-	at testPackage.TestClass.enterTextInSearchBoxMyAcconutPage(TestClass.java:78)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="moveAndClickOnWomenTabOnMyAccountPage">
-                  </a> <!-- moveAndClickOnWomenTabOnMyAccountPage -->
-                  <span class="method-name">moveAndClickOnWomenTabOnMyAccountPage</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-CD4PKTO&apos;, ip: &apos;10.0.0.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 36652, moz:profile: C:\Users\Anurag\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9cfc87e6-3570-4c7f-9177-b53099426ca5
-*** Element info: {Using=xpath, value=//div[@id=&apos;block_top_menu&apos;]//a[@title=&apos;Women&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at basePackage.FindElementClass.findElementUsingXPath(FindElementClass.java:75)
-	at basePackage.MyAccountPage.moveAndClickOnWomenTabOnMyAccountPage(MyAccountPage.java:40)
-	at testPackage.TestClass.moveAndClickOnWomenTabOnMyAccountPage(TestClass.java:70)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount">
-                  </a> <!-- selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount -->
-                  <span class="method-name">selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-CD4PKTO&apos;, ip: &apos;10.0.0.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 36652, moz:profile: C:\Users\Anurag\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9cfc87e6-3570-4c7f-9177-b53099426ca5
-*** Element info: {Using=xpath, value=//input[@id=&apos;layered_category_4&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at basePackage.FindElementClass.findElementUsingXPath(FindElementClass.java:75)
-	at basePackage.FindElementClass.isCheckboxSelected(FindElementClass.java:157)
-	at basePackage.MyAccountPage.selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount(MyAccountPage.java:47)
-	at testPackage.TestClass.selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount(TestClass.java:74)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectSortDropDownMyAccountPage">
-                  </a> <!-- selectSortDropDownMyAccountPage -->
-                  <span class="method-name">selectSortDropDownMyAccountPage</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-CD4PKTO&apos;, ip: &apos;10.0.0.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 36652, moz:profile: C:\Users\Anurag\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9cfc87e6-3570-4c7f-9177-b53099426ca5
-*** Element info: {Using=id, value=selectProductSort}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at basePackage.FindElementClass.findElementUsingID(FindElementClass.java:37)
-	at basePackage.MyAccountPage.selectSortDropDownMyAccountPage(MyAccountPage.java:64)
-	at testPackage.TestClass.selectSortDropDownMyAccountPage(TestClass.java:82)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyMyAccountPageIsOpened">
-                  </a> <!-- verifyMyAccountPageIsOpened -->
-                  <span class="method-name">verifyMyAccountPageIsOpened</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-CD4PKTO&apos;, ip: &apos;10.0.0.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 36652, moz:profile: C:\Users\Anurag\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9cfc87e6-3570-4c7f-9177-b53099426ca5
-*** Element info: {Using=xpath, value=//ul[@class=&apos;myaccount-link-list&apos;]//following::a[@title=&apos;Orders&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at basePackage.FindElementClass.findElementUsingXPath(FindElementClass.java:75)
-	at basePackage.MyAccountPage.verifyMyAccountPageIsOpened(MyAccountPage.java:34)
-	at testPackage.TestClass.verifyMyAccountPageIsOpened(TestClass.java:65)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testPackage.TestClass</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnSignInLink">
-                  </a> <!-- clickOnSignInLink -->
-                  <span class="method-name">clickOnSignInLink</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnSignInLink">
-                  </a> <!-- clickOnSignInLink -->
-                  <span class="method-name">clickOnSignInLink</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="enterTextInEmailAndPasswordTextBoxHomePage(panwarpalak222@gmail.com, test@123)">
-                  </a> <!-- enterTextInEmailAndPasswordTextBoxHomePage(panwarpalak222@gmail.com, test@123) -->
-                  <span class="method-name">enterTextInEmailAndPasswordTextBoxHomePage</span>
-                  <span class="parameters">(panwarpalak222@gmail.com, test@123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="enterTextInSearchBoxMyAcconutPage">
-                  </a> <!-- enterTextInSearchBoxMyAcconutPage -->
-                  <span class="method-name">enterTextInSearchBoxMyAcconutPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="moveAndClickOnWomenTabOnMyAccountPage">
-                  </a> <!-- moveAndClickOnWomenTabOnMyAccountPage -->
-                  <span class="method-name">moveAndClickOnWomenTabOnMyAccountPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="openApplication(http://automationpractice.com/index.php)">
                   </a> <!-- openApplication(http://automationpractice.com/index.php) -->
                   <span class="method-name">openApplication</span>
                   <span class="parameters">(http://automationpractice.com/index.php)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="openApplication(http://automationpractice.com/index.php)">
-                  </a> <!-- openApplication(http://automationpractice.com/index.php) -->
-                  <span class="method-name">openApplication</span>
-                  <span class="parameters">(http://automationpractice.com/index.php)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount">
-                  </a> <!-- selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount -->
-                  <span class="method-name">selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectSortDropDownMyAccountPage">
-                  </a> <!-- selectSortDropDownMyAccountPage -->
-                  <span class="method-name">selectSortDropDownMyAccountPage</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CD4PKTO&apos;, ip: &apos;10.0.0.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at basePackage.BaseClass.initializeDriver(BaseClass.java:28)
+	at testPackage.TestClass.initializeDriver(TestClass.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -514,38 +174,41 @@ Session ID: 9cfc87e6-3570-4c7f-9177-b53099426ca5
                   <a name="verifyHomePageOfApplication">
                   </a> <!-- verifyHomePageOfApplication -->
                   <span class="method-name">verifyHomePageOfApplication</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHomePageOfApplication">
-                  </a> <!-- verifyHomePageOfApplication -->
-                  <span class="method-name">verifyHomePageOfApplication</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyMyAccountPageIsOpened">
-                  </a> <!-- verifyMyAccountPageIsOpened -->
-                  <span class="method-name">verifyMyAccountPageIsOpened</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySignInTabOpenedOnHomePage">
-                  </a> <!-- verifySignInTabOpenedOnHomePage -->
-                  <span class="method-name">verifySignInTabOpenedOnHomePage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySignInTabOpenedOnHomePage">
-                  </a> <!-- verifySignInTabOpenedOnHomePage -->
-                  <span class="method-name">verifySignInTabOpenedOnHomePage</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CD4PKTO&apos;, ip: &apos;10.0.0.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at basePackage.BaseClass.initializeDriver(BaseClass.java:28)
+	at testPackage.TestClass.initializeDriver(TestClass.java:29)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -555,25 +218,21 @@ Session ID: 9cfc87e6-3570-4c7f-9177-b53099426ca5
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; name=&quot;TestFreeCRMApplicationFirefox&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Automation Practice on Firefox&quot;&gt;
     &lt;parameter name=&quot;passWord&quot; value=&quot;test@123&quot;/&gt;
     &lt;parameter name=&quot;eMailID&quot; value=&quot;panwarpalak222@gmail.com&quot;/&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
     &lt;parameter name=&quot;appURL&quot; value=&quot;http://automationpractice.com/index.php&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testPackage.TestClass&quot;/&gt;
+      &lt;class name=&quot;testPackage.TestClass&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;openApplication&quot;/&gt;
+          &lt;include name=&quot;verifyHomePageOfApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testPackage.TestClass --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestFreeCRMApplicationFirefox --&gt;
-  &lt;test thread-count=&quot;2&quot; name=&quot;TestFreeCRMApplicationChrome&quot; parallel=&quot;tests&quot;&gt;
-    &lt;parameter name=&quot;passWord&quot; value=&quot;test@123&quot;/&gt;
-    &lt;parameter name=&quot;eMailID&quot; value=&quot;panwarpalak222@gmail.com&quot;/&gt;
-    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
-    &lt;parameter name=&quot;appURL&quot; value=&quot;http://automationpractice.com/index.php&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testPackage.TestClass&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestFreeCRMApplicationChrome --&gt;
+  &lt;/test&gt; &lt;!-- Automation Practice on Firefox --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -585,10 +244,7 @@ Session ID: 9cfc87e6-3570-4c7f-9177-b53099426ca5
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TestFreeCRMApplicationFirefox (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">TestFreeCRMApplicationChrome (1 class)</span>
+                <span class="test-name">Automation Practice on Firefox (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -614,92 +270,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(20);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'enterTextInEmailAndPasswordTextBoxHomePage')
+data.setCell(0, 1, 'verifyHomePageOfApplication')
 data.setCell(0, 2, 'testPackage.TestClass')
-data.setCell(0, 3, 41247);
+data.setCell(0, 3, 1);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'openApplication')
 data.setCell(1, 2, 'testPackage.TestClass')
-data.setCell(1, 3, 14094);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'openApplication')
-data.setCell(2, 2, 'testPackage.TestClass')
-data.setCell(2, 3, 10508);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'moveAndClickOnWomenTabOnMyAccountPage')
-data.setCell(3, 2, 'testPackage.TestClass')
-data.setCell(3, 3, 6460);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'clickOnSignInLink')
-data.setCell(4, 2, 'testPackage.TestClass')
-data.setCell(4, 3, 3285);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'clickOnSignInLink')
-data.setCell(5, 2, 'testPackage.TestClass')
-data.setCell(5, 3, 2920);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'enterTextInEmailAndPasswordTextBoxHomePage')
-data.setCell(6, 2, 'testPackage.TestClass')
-data.setCell(6, 3, 1847);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifySignInTabOpenedOnHomePage')
-data.setCell(7, 2, 'testPackage.TestClass')
-data.setCell(7, 3, 1241);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyMyAccountPageIsOpened')
-data.setCell(8, 2, 'testPackage.TestClass')
-data.setCell(8, 3, 1166);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'selectSortDropDownMyAccountPage')
-data.setCell(9, 2, 'testPackage.TestClass')
-data.setCell(9, 3, 1000);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifySignInTabOpenedOnHomePage')
-data.setCell(10, 2, 'testPackage.TestClass')
-data.setCell(10, 3, 728);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'enterTextInSearchBoxMyAcconutPage')
-data.setCell(11, 2, 'testPackage.TestClass')
-data.setCell(11, 3, 671);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyHomePageOfApplication')
-data.setCell(12, 2, 'testPackage.TestClass')
-data.setCell(12, 3, 658);
-data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyHomePageOfApplication')
-data.setCell(13, 2, 'testPackage.TestClass')
-data.setCell(13, 3, 322);
-data.setCell(14, 0, 14)
-data.setCell(14, 1, 'selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount')
-data.setCell(14, 2, 'testPackage.TestClass')
-data.setCell(14, 3, 172);
-data.setCell(15, 0, 15)
-data.setCell(15, 1, 'selectSortDropDownMyAccountPage')
-data.setCell(15, 2, 'testPackage.TestClass')
-data.setCell(15, 3, 57);
-data.setCell(16, 0, 16)
-data.setCell(16, 1, 'enterTextInSearchBoxMyAcconutPage')
-data.setCell(16, 2, 'testPackage.TestClass')
-data.setCell(16, 3, 55);
-data.setCell(17, 0, 17)
-data.setCell(17, 1, 'verifyMyAccountPageIsOpened')
-data.setCell(17, 2, 'testPackage.TestClass')
-data.setCell(17, 3, 50);
-data.setCell(18, 0, 18)
-data.setCell(18, 1, 'moveAndClickOnWomenTabOnMyAccountPage')
-data.setCell(18, 2, 'testPackage.TestClass')
-data.setCell(18, 3, 38);
-data.setCell(19, 0, 19)
-data.setCell(19, 1, 'selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount')
-data.setCell(19, 2, 'testPackage.TestClass')
-data.setCell(19, 3, 32);
+data.setCell(1, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 1 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -710,43 +294,34 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyHomePageOfApplication</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Element is displayed on screen!</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifySignInTabOpenedOnHomePage</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Element is displayed on screen!</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyHomePageOfApplication</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Element is displayed on screen!</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifySignInTabOpenedOnHomePage</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Element is displayed on screen!</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Element is not found!</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPackage.TestClass</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyMyAccountPageIsOpened</span>
+                <br/>
+                <span class="ignored-method-name">enterTextInEmailAndPasswordTextBoxHomePage</span>
+                <br/>
+                <span class="ignored-method-name">selectSortDropDownMyAccountPage</span>
+                <br/>
+                <span class="ignored-method-name">clickOnSignInLink</span>
+                <br/>
+                <span class="ignored-method-name">enterTextInSearchBoxMyAcconutPage</span>
+                <br/>
+                <span class="ignored-method-name">verifySignInTabOpenedOnHomePage</span>
+                <br/>
+                <span class="ignored-method-name">moveAndClickOnWomenTabOnMyAccountPage</span>
+                <br/>
+                <span class="ignored-method-name">selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -757,105 +332,23 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testPackage.TestClass</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">initializeDriver(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">initializeDriver(chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">openApplication(http://automationpractice.com/index.php)</span>
-                <span class="method-start">9744 ms</span>
+                <span class="method-start">97403 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageOfApplication</span>
-                <span class="method-start">20288 ms</span>
+                <span class="method-start">101915 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">clickOnSignInLink</span>
-                <span class="method-start">20986 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifySignInTabOpenedOnHomePage</span>
-                <span class="method-start">24282 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">enterTextInEmailAndPasswordTextBoxHomePage(panwarpalak222@gmail.com, test@123)</span>
-                <span class="method-start">25531 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">openApplication(http://automationpractice.com/index.php)</span>
-                <span class="method-start">48664 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyHomePageOfApplication</span>
-                <span class="method-start">62764 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">clickOnSignInLink</span>
-                <span class="method-start">63092 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifySignInTabOpenedOnHomePage</span>
-                <span class="method-start">66017 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">enterTextInEmailAndPasswordTextBoxHomePage(panwarpalak222@gmail.com, test@123)</span>
-                <span class="method-start">66751 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyMyAccountPageIsOpened</span>
-                <span class="method-start">66783 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">moveAndClickOnWomenTabOnMyAccountPage</span>
-                <span class="method-start">67953 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyMyAccountPageIsOpened</span>
-                <span class="method-start">68613 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">moveAndClickOnWomenTabOnMyAccountPage</span>
-                <span class="method-start">68671 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount</span>
-                <span class="method-start">68719 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">enterTextInSearchBoxMyAcconutPage</span>
-                <span class="method-start">68758 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">selectSortDropDownMyAccountPage</span>
-                <span class="method-start">68820 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount</span>
-                <span class="method-start">74419 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">enterTextInSearchBoxMyAcconutPage</span>
-                <span class="method-start">74594 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">selectSortDropDownMyAccountPage</span>
-                <span class="method-start">75270 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102292 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

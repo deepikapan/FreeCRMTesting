@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="2" name="TestFreeCRMApplicationFirefox(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Automation Practice on Firefox(failed)">
     <parameter name="passWord" value="test@123"/>
     <parameter name="eMailID" value="panwarpalak222@gmail.com"/>
     <parameter name="browserName" value="firefox"/>
@@ -9,15 +9,12 @@
     <classes>
       <class name="testPackage.TestClass">
         <methods>
+          <include name="tearDown"/>
           <include name="initializeDriver"/>
-          <include name="verifyMyAccountPageIsOpened"/>
-          <include name="enterTextInSearchBoxMyAcconutPage"/>
-          <include name="selectSortDropDownMyAccountPage"/>
-          <include name="moveAndClickOnWomenTabOnMyAccountPage"/>
-          <include name="enterTextInEmailAndPasswordTextBoxHomePage" invocation-numbers="0"/>
-          <include name="selectCategoriesCheckBoxOfCatalogOnWomenTabOnMyAccount"/>
+          <include name="verifyHomePageOfApplication"/>
+          <include name="openApplication"/>
         </methods>
       </class> <!-- testPackage.TestClass -->
     </classes>
-  </test> <!-- TestFreeCRMApplicationFirefox(failed) -->
+  </test> <!-- Automation Practice on Firefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->
